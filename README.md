@@ -10,7 +10,7 @@ This repository contains my solution for the Kaggle Titanic competition. In this
 - [Data](#data)
 - [Exploration Draft](#exploration-draft)
 - [Solution](#solution)
-- [Conclusion](#data-preprocessing)
+- [Conclusion](#conclusion)
 
 ## Overview
 
@@ -67,6 +67,6 @@ Along with some of the strategies of the exploratory draft, some of the new stat
 
 Unfortunately, this more complex approach yielded an accuracy of 74%, which is less than the simplistic approach. That being said, less tweaking was done on this solution once the final results were obtained.
 
-## Conclusions
+## Conclusion
 
 This competition was an interesting starting point in the world of Data Science. Though I could have been interesting to work further on my solution in order to attempt to reach the threshold of the 80%, I have decided to to settle with this solution and tackle different challenges!
