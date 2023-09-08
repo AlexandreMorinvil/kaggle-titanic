@@ -41,7 +41,7 @@ The columns present in the dataset and what each column represents are described
 
 ## Exploration Draft
 
-As this is an introductory project, a first exploratory draft Jupyter Notebook named "exploratory_draft" contains my first attempt to tackle this problem. This notebook contains my first attempts at data exploration, feature engineering and predictions using a Decision Tree classifier and a Random Forest Classifier. 
+As this is an introductory project, a first exploratory draft Jupyter Notebook named `exploratory_draft.ipynb` contains my first attempt to tackle this problem. This notebook contains my first attempts at data exploration, feature engineering and predictions using a Decision Tree classifier and a Random Forest Classifier. 
 
 Some of the strategies used were :
 - Using One Hot encoder to handle categorical data
@@ -53,7 +53,7 @@ Using this very simplistic approach, the best result achieved was 77% accuracy (
 
 ## Solution
 
-After this first round of experimenting in the exploratory draft phase, I started anew, equipped with my newly acquired knowledge from the first attempt and I created another solution, in the "solution" Jupyter Notebook, that was meant to be more comprehensive and go one step further in the optimization of the predictions.
+After this first round of experimenting in the exploratory draft phase, I started anew, equipped with my newly acquired knowledge from the first attempt and I created another solution, in the `solution.ipynb` Jupyter Notebook, that was meant to be a more comprehensive and go one step further in the optimization of the predictions.
 
 Along with some of the strategies of the exploratory draft, some of the new strategies used were :
 
