@@ -18,7 +18,7 @@ Welcome to my Kaggle Titanic Competition solution! In this competition, the chal
 
 The sinking of the Titanic is a well-known tragedy, and this competition asks a fundamental question: What factors influenced a passenger's chances of survival? Through data analysis and machine learning, I have crafted a solution that aims to answer this question accurately.
 
-In this repository, you will find my code, methodologies, and insights into the Kaggle Titanic competition. It is precisely with this goal in mind that I completed this project. In the solution provided, I have explored the dataset, engineered features, preprocessed the data, tested various machine learning models, and fine-tuned them to achieve the best possible prediction accuracy. 
+In this repository, you will find my code, methodologies, and insights into the Kaggle Titanic competition. It is precisely with this goal in mind that I completed this project. In the solution provided, I explored the dataset, engineered features, preprocessed the data, tested various machine learning models, and fine-tuned them to achieve the best possible prediction accuracy. 
 
 This README serves as a guide to understanding my solution and how to consult it. Feel free to explore the various sections to get an in-depth view of my approach, and don't hesitate to reach out if you have any questions or suggestions for improvement.
 Let's dive into the details of my solution and discover what factors determined survival on that fateful night aboard the Titanic!
@@ -29,7 +29,7 @@ Explain the dataset used for this competition. Include a link to the Kaggle comp
 
 ### Data Files
 
-The dataset used in this problem include the following file :
+The dataset used in this problem includes the following file :
 
 - `train.csv`: Training dataset.
 - `test.csv`: Test dataset.
@@ -37,7 +37,7 @@ The dataset used in this problem include the following file :
 
 ### Data Columns
 
-The columns present in the dataset and what each column represents is described on the Kaggle website : https://www.kaggle.com/competitions/titanic/data
+The columns present in the dataset and what each column represents are described on the Kaggle website: https://www.kaggle.com/competitions/titanic/data
 
 ## Exploration Draft
 
@@ -53,16 +53,16 @@ Using this very simplistic approach, the best result achieved was 77% accuracy (
 
 ## Solution
 
-After this first round experimenting in the exploratory draft phase, I started anew, equiped with my newly acquired knowledge from the first attempt and I created another solution, in the "solution" Jupyter Notebook, that was meant to be more comprehensive and go one step further in the optimisation of the predictions.
+After this first round of experimenting in the exploratory draft phase, I started anew, equipped with my newly acquired knowledge from the first attempt and I created another solution, in the "solution" Jupyter Notebook, that was meant to be more comprehensive and go one step further in the optimization of the predictions.
 
-Along with some of the strategies of the exploratory draft, some of the new stategies used were :
+Along with some of the strategies of the exploratory draft, some of the new strategies used were :
 
 - Using seaborn to use a more visual approach to data exploration
 - More elaborate solutions for data imputation
-- More selective data engineering (Using less features, but more relevant ones)
+- More selective data engineering (Using fewer features, but more relevant ones)
 - Normalizing the Numerical features
 - Dataset balancing using the SMOTE Oversampling algorithm
-- Using three ensemble classifiers : RandomForest, Adaboost, XGBoost
+- Using three ensemble classifiers: RandomForest, Adaboost, XGBoost
 - Stacking classifier
 
 Unfortunately, this more complex approach yielded an accuracy of 74%, which is less than the simplistic approach. That being said, less tweaking was done on this solution once the final results were obtained.
